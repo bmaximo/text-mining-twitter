@@ -3,7 +3,7 @@ library(jsonlite)
 library(dplyr) 
 
 #read txt archive
-content <- file("data/your_strem_tweets.txt", open="rt")
+content <- file("data/your_stream_tweets.txt", open="rt")
 res <- stream_in(content)
 
 #convert txt to json
